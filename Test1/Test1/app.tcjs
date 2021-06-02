@@ -1,0 +1,7 @@
+let tc = TCF.define(TCF.CPP_TRANSFORM);
+tc.sources = [
+    'platform:/resource/Test1/TrafficLightComponent.emx#_A6JHgMMyEeuE2v-wvF75OA'
+];
+tc.topCapsule = 'platform:/resource/Test1/TrafficLightComponent.emx#_A6JHxcMyEeuE2v-wvF75OA';
+tc.createTargetProject = true;
+tc.targetProject = '/TrafficLight_target';
